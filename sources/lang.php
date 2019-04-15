@@ -3,7 +3,7 @@
 @define ('_htthanhtoan','HT thanh toán');
 @define ('_trangchu','Trang chủ');
 @define ('_gioithieu','Giới thiệu');
-@define ('_sanpham','Sản phẩm');
+@define ('_cuahang','Cửa hàng');
 @define ('_tintuc','Tin tức');
 @define ('_dichvu','Dịch vụ');
 @define ('_congtrinh','Công trình');

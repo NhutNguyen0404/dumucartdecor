@@ -3,7 +3,7 @@
 @define ('_htthanhtoan', 'Form of payment');
 @define ('_trangchu','Home');
 @define ('_gioithieu','Introduction');
-@define ('_sanpham','products');
+@define ('_cuahang','store');
 @define ('_tintuc','News');
 @define ('_dichvu','Services');
 @define ('_congtrinh','work');

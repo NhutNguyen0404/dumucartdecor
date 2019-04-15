@@ -45,12 +45,7 @@
 <h3 style="position:absolute; top:-1000px;"><?php if($title!='')echo $title;else echo $seo['title'];?></h3>
 <!--Mua hàng-->
 <div id="wapper">
-
-
-    <?php //include _template."layout/pupop.php";?>
-	<?php include _template."layout/header.php";?>
     <?php include _template."layout/menu_top.php";?>
-    
     <?php if($source=='index') {?>
         <?php include _template."layout/slider.php";?>      
     <?php } ?>

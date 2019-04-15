@@ -32,6 +32,11 @@ body{
     src: url('font/Roboto-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url('font/Montserrat-Light.otf');
+}
+
 div#wapper
 { 
   margin:auto;

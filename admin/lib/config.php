@@ -4,8 +4,8 @@
 	$config_url=$_SERVER["SERVER_NAME"].'';	
 	
 	$config['database']['servername'] = 'localhost';
-	$config['database']['username'] = 'dumucde_db';
-	$config['database']['password'] = '4XF8Rkmm';
+	$config['database']['username'] = 'root';
+	$config['database']['password'] = '';
 	$config['database']['database'] = 'dumucde_db';
 	$config['database']['refix'] = 'table_';
 	

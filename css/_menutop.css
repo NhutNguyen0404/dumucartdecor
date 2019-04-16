@@ -1,8 +1,11 @@
 div.wap_menu {
-    position: relative;
+    position: fixed;
     background: #ffffff;
     margin: auto;
     width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999999;
 }
 
 div.menu {
@@ -57,6 +60,7 @@ div.menu ul li ul {
     line-height: 1.5;
     bottom: -200px;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
 }
 
 div.menu ul li:hover ul li ul {
@@ -68,12 +72,17 @@ div.menu ul li:hover ul li ul {
     color: #fff !important;
     line-height: 1.5;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    border-radius: 3px;
 }
 
 div.menu ul li ul li {
     color: #ffffff !important;
     width: 100% !important;
     display: block;
+}
+
+div.menu ul li ul li:hover {
+    border-left: 2px solid #ff9b00;
 }
 
 div.menu ul li ul li a {
@@ -93,6 +102,10 @@ div.menu ul li ul li ul {
 .logo-top img {
     height: 130px;
     border-radius: 50%;
+}
+
+.logo-scroll img {
+    height: 50px !important;
 }
 
 @media screen and (max-width: 960px) {

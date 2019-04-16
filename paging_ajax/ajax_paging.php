@@ -114,8 +114,8 @@
 		  	//lazyLoad: 'progressive',
         	infinite: true,//Lặp lại
 			accessibility:true,
-		  	slidesToShow: 4,    //Số item hiển thị
-		  	slidesToScroll: 4, //Số item cuộn khi chạy
+		  	slidesToShow: 3,    //Số item hiển thị
+		  	slidesToScroll: 1, //Số item cuộn khi chạy
 		  	autoplay:true,  //Tự động chạy
 			autoplaySpeed:6000,  //Tốc độ chạy
 			speed:4000,//Tốc độ chuyển slider
@@ -129,7 +129,7 @@
 				{
 				  breakpoint: 1025,
 				  settings: {
-					slidesToShow: 4,
+					slidesToShow: 3,
 					slidesToScroll: 1,
 					dots: false
 				  }

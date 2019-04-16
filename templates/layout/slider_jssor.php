@@ -1,10 +1,88 @@
-<link href="css/css_jssor_slider.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="js/jssor.js"></script>
-<script type="text/javascript" src="js/jssor.slider.js"></script>
-<script type="text/javascript" src="js/js_jssor_slider.js"></script>
-<div id="slider1_container" style="position: relative;width: 835px; height: 300px;">
+<script type="text/javascript" src="js/jssor.slider-27.5.0.min.js"></script>
+<!--<script type="text/javascript" src="js/js_jssor_slider.js"></script>-->
+<!--<link href="css/css_jssor_slider.css" type="text/css" rel="stylesheet" />-->
+<script type="text/javascript">
+    jssor_1_slider_init = function() {
+
+        var jssor_1_SlideshowTransitions = [
+            {$Duration:800,$Opacity:2}
+        ];
+
+        var jssor_1_options = {
+            $AutoPlay: 1,
+            $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+            },
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+            },
+            $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+            }
+        };
+
+        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+        /*#region responsive code begin*/
+
+        var MAX_WIDTH = 1366;
+
+        function ScaleSlider() {
+            var containerElement = jssor_1_slider.$Elmt.parentNode;
+            var containerWidth = containerElement.clientWidth;
+
+            if (containerWidth) {
+
+                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                jssor_1_slider.$ScaleWidth(expectedWidth);
+            }
+            else {
+                window.setTimeout(ScaleSlider, 30);
+            }
+        }
+
+        ScaleSlider();
+
+        $Jssor$.$AddEvent(window, "load", ScaleSlider);
+        $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+        $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+        /*#endregion responsive code end*/
+    };
+</script>
+<style>
+    /*jssor slider loading skin spin css*/
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /*jssor slider bullet skin 051 css*/
+    .jssorb051 .i {position:absolute;cursor:pointer;}
+    .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+    .jssorb051 .i:hover .b {fill-opacity:.7;}
+    .jssorb051 .iav .b {fill-opacity: 1;}
+    .jssorb051 .i.idn {opacity:.3;}
+
+    /*jssor slider arrow skin 051 css*/
+    .jssora051 {display:block;position:absolute;cursor:pointer;}
+    .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+    .jssora051:hover {opacity:.8;}
+    .jssora051.jssora051dn {opacity:.5;}
+    .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+</style>
+<div style="position:relative;margin:0 auto;top:0px;left:0px;width:1366px;height:380px;overflow:hidden;visibility:hidden;" id="jssor_1">
     <!-- Slides Container -->
-    <div u="slides" style="cursor: move;width: 835px; height: 300px;overflow: hidden;">
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1366px;height:380px;overflow:hidden;">
         <?php for($i=0,$count_slider=count($slider);$i<$count_slider;$i++){ ?>
         <div>
             <img u="image" src="<?php if($slider[$i]['photo']!='')echo _upload_hinhanh_l.$slider[$i]['photo'];else echo 'images/noimage.png' ?>" alt="<?=$$slider[$i]['ten']?>" />
@@ -13,9 +91,26 @@
         <?php } ?>                
     </div>
     <!-- Trigger -->
-             
-    <!-- Arrow Left -->
-    <span u="arrowleft" class="jssora05l" style="top:40%;"></span>
-    <!-- Arrow Right -->
-    <span u="arrowright" class="jssora05r" style="top:40%;"></span>
+
+    <!-- Bullet Navigator -->
+    <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+        <div data-u="prototype" class="i" style="width:16px;height:16px;">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+            </svg>
+        </div>
+    </div>
+    <!-- Arrow Navigator -->
+    <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+        </svg>
+    </div>
+    <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+        <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+        </svg>
+    </div>
 </div><!-- Jssor Slider End -->
+<script type="text/javascript">jssor_1_slider_init();</script>
+<!-- #endregion Jssor Slider End -->

@@ -1,8 +1,8 @@
 .footer
 {
     width: 100%;
-    background: #303030;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 .footer ul
 {
@@ -11,7 +11,7 @@
 .footer ul a
 {
     text-decoration: none;
-    color: #fff;
+    color: #eee;
 }
 .footer .footer-content
 {
@@ -60,7 +60,6 @@
 .copy-write
 {
     width: 100%;
-    border-top: 1px solid #fff;
     margin-top: 10px;
     padding: 10px;
 }
@@ -68,11 +67,15 @@
 {
     max-width: 1200px;
     margin: auto;
+    text-align: center;
+    color: gray;
+    padding: 10px 0px;
+    border-top: 1px solid #eee;
 }
 .copy-write .content-copy-write .creat-by
 {
-    float: left;
-    max-width: 50%;
+    max-width: 100%;
+    font-size: 10px;
 }
 .copy-write .content-copy-write .creat-by a
 {

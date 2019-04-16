@@ -167,7 +167,7 @@
 	{
 		$where = " type='".$type."' and hienthi=1 order by stt,id desc";
         $site_map .= '<li> / Sản phẩm</li>';
-        $sql = "select ten$lang as ten,noidung$lang as noidung,title,keywords,description, file from #_about where type='sanpham' and hienthi=1 limit 0,1";
+        $sql = "select ten$lang as ten,noidung$lang as noidung,title,keywords,description from #_about where type='sanpham' and hienthi=1 limit 0,1";
     	$d->query($sql);
     	$motaseo_sp = $d->fetch_array();
         $mota_seo =$motaseo_sp['noidung'];

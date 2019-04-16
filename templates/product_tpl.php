@@ -155,30 +155,36 @@
 <div class="content-seo">
     <?=$mota_seo?>
 </div>
-<?php for($i=0,$count_product=count($product);$i<$count_product;$i++){	?>
-    <div class="item item_custom">
-            <a href="<?=$product[$i]['tenkhongdau']?>-<?=$product[$i]['id']?>.html" title="<?=$product[$i]['ten']?>" itemprop="name"><img style="width: 100%;" src="<?php if($product[$i]['thumb']!=NULL) echo _upload_sanpham_l.$product[$i]['thumb']; else echo 'images/noimage.png';?>" alt="<?=$product[$i]['ten']?>" /></a>
-            <div class="tomtat">
-                <h3 class="sp_name"><a href="<?=$product[$i]['tenkhongdau']?>-<?=$product[$i]['id']?>.html" title="<?=$product[$i]['ten']?>" itemprop="name"><?=$product[$i]['ten']?></a></h3>
-                     <?php
-                        if(!empty($product[$i]['giacu']))
-                        {
-                            ?>
-                                <h4><span style="text-decoration: line-through;"><?=number_format($product[$i]['gia'])?> vnd </span><span
-                                style="color:red;"><?=number_format($product[$i]['giacu'])?> vnd</span></h4>
-                            <?php
-                        }
-                        else
-                        {
-                            ?>
-                                 <h4><?=number_format($product[$i]['gia'])?> vnd</h4>
-                            <?php
-                        }
-                    ?> 
-            </div>
-      
-    </div><!---END .item-->  
-<?php } ?>
+    <div class="content-products">
+
+        <?php for ($i = 0, $count_product = count($product); $i < $count_product; $i++) { ?>
+            <div class="item item_custom">
+                <a href="<?= $product[$i]['tenkhongdau'] ?>-<?= $product[$i]['id'] ?>.html"
+                   title="<?= $product[$i]['ten'] ?>" itemprop="name"><img style="width: 100%;"
+                                                                           src="<?php if ($product[$i]['thumb'] != NULL) echo _upload_sanpham_l . $product[$i]['thumb']; else echo 'images/noimage.png'; ?>"
+                                                                           alt="<?= $product[$i]['ten'] ?>"/></a>
+                <div class="tomtat">
+                    <h3 class="sp_name"><a href="<?= $product[$i]['tenkhongdau'] ?>-<?= $product[$i]['id'] ?>.html"
+                                           title="<?= $product[$i]['ten'] ?>"
+                                           itemprop="name"><?= $product[$i]['ten'] ?></a></h3>
+                    <?php
+                    if (!empty($product[$i]['giacu'])) {
+                        ?>
+                        <h4><span style="text-decoration: line-through;"><?= number_format($product[$i]['gia']) ?>
+                                vnd </span><span
+                                    style="color:red;"><?= number_format($product[$i]['giacu']) ?> vnd</span></h4>
+                        <?php
+                    } else {
+                        ?>
+                        <h4><?= number_format($product[$i]['gia']) ?> vnd</h4>
+                        <?php
+                    }
+                    ?>
+                </div>
+
+            </div><!---END .item-->
+        <?php } ?>
+    </div>
 <div class="clear"></div>
 <div class="pagination"><?=pagesListLimitadmin($url_link , $totalRows , $pageSize, $offset)?></div>
 </div><!---END .wap_item-->

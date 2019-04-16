@@ -28,19 +28,19 @@
 			$template = "tracuu";
 			break;
 			
-		case 'thong-tin':
+		case 'thi-cong-noi-that':
 			$type = "thongtin";
-			$title = 'Thông tin công ty';
-			$title_cat = 'Thông tin công ty';
+			$title = 'Thi công nội thất';
+			$title_cat = 'Thi công nội thất';
 			$title_other = _tinlienquan;
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
 			break;
 			
-		case 'ho-tro':
+		case 'thiet-ke-noi-that':
 			$type = "hotro";
-			$title = 'Hỗ trợ khách hàng';
-			$title_cat = 'Hỗ trợ khách hàng';
+			$title = 'Thiết kế nội thất';
+			$title_cat = 'Thiết kế nội thất';
 			$title_other = _tinlienquan;
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
@@ -78,10 +78,10 @@
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "banggia";
 			break;
-        case 'tu-van-thiet-ke':
+        case 'tu-van':
 			$type = "tuvan";
-			$title = 'Tư vấn thiết kế';
-			$title_cat = 'Tư vấn thiết kế';
+			$title = 'Tư vấn';
+			$title_cat = 'Tư vấn';
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
 			break;	
@@ -134,23 +134,22 @@
 			$template = "news";
 			break;	
 							
-		case 'san-pham':
+		case 'cua-hang':
 			$type = "sanpham";
-			$title = _sanpham;
-			$title_cat = _sanpham;
+			$title = _cuahang;
+			$title_cat = _cuahang;
 			$title_other = _sanphamcungloai;
 			$source = "product";
 			$template = isset($_GET['id']) ? "product_detail" : "product";
 			break;
-        case 'san-pham-huu-co':
-			$type = "sanpham";
-			$title = 'Sản phẩm hữu cơ';
-			$title_cat = 'Sản phẩm hữu cơ';
-			$title_other = _sanphamcungloai;
-			$source = "product";
-			$template = isset($_GET['id']) ? "product_detail" : "product_hc";
-			break;
-			
+//        case 'san-pham-huu-co':
+//			$type = "sanpham";
+//			$title = 'Sản phẩm hữu cơ';
+//			$title_cat = 'Sản phẩm hữu cơ';
+//			$title_other = _sanphamcungloai;
+//			$source = "product";
+//			$template = isset($_GET['id']) ? "product_detail" : "product_hc";
+//			break;
 		case 'phan-trang-danh-muc':
 			$type = "sanpham";
 			$title = _sanpham;

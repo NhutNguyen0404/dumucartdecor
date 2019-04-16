@@ -182,12 +182,12 @@
 	$(document).ready(function(){
 		$(window).scroll(function(){
 			var cach_top = $(window).scrollTop();
-			var heaigt_header = $('#header').height();
-            var heaigt_slider = $('#slider').height();
-			if(cach_top >= (heaigt_header + heaigt_slider)){
-				$('.wap_menu').css({position: 'fixed', top: '0px', zIndex:99});
+			if(cach_top >= 70){
+				//$('.wap_menu').css({position: 'fixed', top: '0px', zIndex:99});
+				$('.logo-top').addClass('logo-scroll');
 			}else{
-				$('.wap_menu').css({position: 'relative'});
+				//$('.wap_menu').css({position: 'relative'});
+                $('.logo-top').removeClass('logo-scroll');
 			}
 		});
 	});

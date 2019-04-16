@@ -1,59 +1,26 @@
-.captionOrange, .captionBlack
-{
-	color: #fff;
-	font-size: 20px;
-	line-height: 30px;
-	text-align: center;
-	border-radius: 4px;
-}
-.captionOrange
-{
-	background: #EB5100;
-	background-color: rgba(235, 81, 0, 0.6);
-}
-.captionBlack
-{
-	font-size:16px;
-	background: #000;
-	background-color: rgba(0, 0, 0, 0.4);
-}
-a.captionOrange, A.captionOrange:active, A.captionOrange:visited
-{
-	color: #ffffff;
-	text-decoration: none;
-}
-a.captionOrange:hover
-{
-	color: #eb5100;
-	text-decoration: underline;
-	background-color: #eeeeee;
-	background-color: rgba(238, 238, 238, 0.7);
+/*jssor slider loading skin spin css*/
+.jssorl-009-spin img {
+	animation-name: jssorl-009-spin;
+	animation-duration: 1.6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
-.jssora05l{
-	display: block;
-    position: absolute;
-    width: 40px;
-    height: 50px;
-    cursor: pointer;
-    background: url(../images/a17.png) no-repeat;
-    overflow: hidden;
-    left: 20px;
-	background-position: -10px -40px;
-	
+@keyframes jssorl-009-spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
 }
-.jssora05l:hover{ background-position: -130px -40px;}
-.jssora05r {
-	display: block;
-    position: absolute;
-    width: 40px;
-    height: 50px;
-    cursor: pointer;
-    background: url(../images/a17.png) no-repeat;
-    overflow: hidden;
-    right: 20px;
-	background-position: -70px -40px;
-}
-.jssora05r:hover{ background-position: -190px -40px;}
-.jssora05l.jssora05ldn { background-position: -250px -40px; }
-.jssora05r.jssora05rdn { background-position: -310px -40px; }
+
+/*jssor slider bullet skin 051 css*/
+.jssorb051 .i {position:absolute;cursor:pointer;}
+.jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+.jssorb051 .i:hover .b {fill-opacity:.7;}
+.jssorb051 .iav .b {fill-opacity: 1;}
+.jssorb051 .i.idn {opacity:.3;}
+
+/*jssor slider arrow skin 051 css*/
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}

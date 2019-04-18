@@ -240,8 +240,8 @@
 
 <?php if(count($product)>0) { ?>
 <link href="css/_product.css" type="text/css" rel="stylesheet" />
-<div class="wap_item">
-
+    <div class="tieude_giua"><div>Sản phẩm khác</div></div>
+<div class="wap_item content-products">
     <?php for($i=0,$count_product=count($product);$i<$count_product;$i++){	?>
     <div class="item item_custom">
             <a href="<?=$product[$i]['tenkhongdau']?>-<?=$product[$i]['id']?>.html" title="<?=$product[$i]['ten']?>" itemprop="name"><img style="width: 100%;" src="<?php if($product[$i]['thumb']!=NULL) echo _upload_sanpham_l.$product[$i]['thumb']; else echo 'images/noimage.png';?>" alt="<?=$product[$i]['ten']?>" /></a>
@@ -265,9 +265,8 @@
             </div>
       
     </div><!---END .item-->  
-<?php } ?> 
-
-<div class="clear"></div>
-<div class="pagination"><?=pagesListLimitadmin($url_link , $totalRows , $pageSize, $offset)?></div>
+<?php } ?>
 </div><!---END .wap_item-->
+    <div class="clear"></div>
+    <div class="pagination"><?=pagesListLimitadmin($url_link , $totalRows , $pageSize, $offset)?></div>
 <?php } ?>

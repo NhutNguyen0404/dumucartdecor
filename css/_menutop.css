@@ -26,17 +26,19 @@ div.menu ul {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 
 div.menu ul li {
-    display: flex;
     position: relative;
     z-index: 50;
     font-size: 13pt;
-    align-items: center;
+    height: 100%;
 }
 
 div.menu ul li a {
+    display: flex;
+    align-items: center;
     color: #000;
     font-size: 15px;
     padding: 10px 14px;
@@ -58,7 +60,6 @@ div.menu ul li ul {
     background: #ffffff;
     color: #fff !important;
     line-height: 1.5;
-    bottom: -200px;
     box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
     border-radius: 3px;
 }

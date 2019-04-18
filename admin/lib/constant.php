@@ -22,9 +22,6 @@
 	
 	@define ( _upload_hinhthem , '../upload/hinhthem/' );
 	@define ( _upload_hinhthem_l , 'upload/hinhthem/' );
-    
-    @define ( _upload_files , '../upload/files/' );
-	@define ( _upload_files_l , 'upload/files/' );
 
 	#========= Các kiểu định dạng ==============
 	

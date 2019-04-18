@@ -84,46 +84,21 @@
 		
 	function addtocart($pid,$size,$mausac,$q){
 		if($pid<1 or $q<1) return;
-        $check =0;
-        if(is_array($_SESSION['cart']))
-        {
-    		for($i=0;$i<count($_SESSION['cart']);$i++)
-            {
-                if($_SESSION['cart'][$i]['productid']==$pid)
-                {
-                    if($size=='')
-                    {
-                        $_SESSION['cart'][$i]['qty'] = $q + $_SESSION['cart'][$i]['qty'];
-                    }
-                    if($size=='doisl')
-                    {
-                       $_SESSION['cart'][$i]['qty'] = $q; 
-                    }
-                    $check = 1;
-                }
-                
-            }
+		
+		if(is_array($_SESSION['cart'])){
+			if(product_exists($pid,$size,$mausac)) return;
+			$max=count($_SESSION['cart']);
+			$_SESSION['cart'][$max]['productid']=$pid;
+			$_SESSION['cart'][$max]['qty']=$q;
+			$_SESSION['cart'][$max]['size']=$size;
+			$_SESSION['cart'][$max]['mausac']=$mausac;
 		}
-		if($check==0)
-        {
-            if(is_array($_SESSION['cart']))
-            {                
-                    if(product_exists($pid,$size,$mausac)) return;
-        			$max=count($_SESSION['cart']);
-        			$_SESSION['cart'][$max]['productid']=$pid;
-        			$_SESSION['cart'][$max]['qty']=$q;
-        			$_SESSION['cart'][$max]['size']=$size;
-        			$_SESSION['cart'][$max]['mausac']=$mausac;
-            }
-            else
-            {
-                $_SESSION['cart']=array();
-    			$_SESSION['cart'][0]['productid']=$pid;
-    			$_SESSION['cart'][0]['qty']=$q;
-    			$_SESSION['cart'][0]['size']=$size;
-    			$_SESSION['cart'][0]['mausac']=$mausac;
-            }
-			
+		else{
+			$_SESSION['cart']=array();
+			$_SESSION['cart'][0]['productid']=$pid;
+			$_SESSION['cart'][0]['qty']=$q;
+			$_SESSION['cart'][0]['size']=$size;
+			$_SESSION['cart'][0]['mausac']=$mausac;
 		}
 	}
 	

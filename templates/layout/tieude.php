@@ -15,7 +15,6 @@
         </div>
         <div class="site-maps">
             <?=$site_map?>
-        
         </div>
     </div>
 </div>

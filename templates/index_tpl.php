@@ -88,23 +88,72 @@
 					{
 						alert('<?=_nhapsoluong?>');
 					}
-			return false;
+			return false;  
 		});
 	});
+	
+	$(document).ready(function () {
+        const showTab = $('.js-show-tab');
+        const tabItems = $('.tab-items');
+        showTab.click(function () {
+            let dataTab = $(this).attr('data-tab');
+            showTab.removeClass('actived');
+            $(this).addClass('actived');
+            let tabContent = $('#product-tab-item__'+dataTab);
+            tabItems.hide(100);
+            tabContent.fadeIn(300);
+        });
+    })
 </script>
 
-<?php for ($i=0; $i < count($product_danhmuc2); $i++) { ?>
-<div class="content-category">
-    <div class="tieude_giua"><div><?=$product_danhmuc2[$i]['ten']?></div><a href="san-pham/<?=$product_danhmuc2[$i]['tenkhongdau']?>-<?=$product_danhmuc2[$i]['id']?>">Xem tất cả</i></a></div>
-    <div class="wap_item">
-        <div class="load_page_<?=$product_danhmuc2[$i]['id']?>" data-rel="<?=$product_danhmuc2[$i]['id']?>">
-            <script type="text/javascript">        	
-                $(document).ready(function() {
-                    loadData(1,".load_page_<?=$product_danhmuc2[$i]['id']?>","<?=$product_danhmuc2[$i]['id']?>"); 
-                });
-            </script>
-        </div>
-    </div>
+<div class="tab-products">
+    <ul>
+        <li data-tab="all" class="actived js-show-tab">Tất cả</li>
+        <?php for ($i=0; $i < count($product_danhmuc2); $i++) { ?>
+            <li data-tab="<?=$product_danhmuc2[$i]['id']?>" class="js-show-tab"><?=$product_danhmuc2[$i]['ten']?></li>
+        <?php } ?>
+    </ul>
 </div>
-<?php } ?>
+<div class="content-tab">
+    <div class="actived tab-items" id="product-tab-item__all">
+        <?php for ($i=0; $i < count($product_danhmuc3); $i++) { ?>
+            <div class="content-category">
+                <div class="tieude_giua"><div><?=$product_danhmuc3[$i]['ten']?></div><a href="san-pham/<?=$product_danhmuc3[$i]['tenkhongdau']?>-<?=$product_danhmuc2[$i]['id']?>">Xem tất cả</i></a></div>
+                <div class="wap_item">
+                    <div class="load_page_<?=$product_danhmuc3[$i]['id']?>" data-rel="<?=$product_danhmuc3[$i]['id']?>">
+                        <script type="text/javascript">
+                            $(document).ready(function() {
+                                loadData('all',".load_page_<?=$product_danhmuc3[$i]['id']?>","<?=$product_danhmuc3[$i]['id']?>");
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+    </div>
+    <?php foreach ($product_danhmuc2 as $danhmuc2) { ?>
+        <div class="hide tab-items" id="product-tab-item__<?=$danhmuc2['id']?>">
+            <?php
+                $d->reset();
+                $sql="select ten$lang as ten,tenkhongdau,id from #_product_list where hienthi=1 and type='sanpham' and id_danhmuc = ".$danhmuc2['id']." order by stt,id desc";
+                $d->query($sql);
+                $product_danhmuc3=$d->result_array();
+            ?>
+            <?php for ($i=0; $i < count($product_danhmuc3); $i++) { ?>
+                <div class="content-category">
+                    <div class="tieude_giua"><div><?=$product_danhmuc3[$i]['ten']?></div><a href="san-pham/<?=$product_danhmuc3[$i]['tenkhongdau']?>-<?=$product_danhmuc2[$i]['id']?>">Xem tất cả</i></a></div>
+                    <div class="wap_item">
+                        <div class="load_page_<?=$product_danhmuc3[$i]['id']?>" data-rel="<?=$product_danhmuc3[$i]['id']?>">
+                            <script type="text/javascript">
+                                $(document).ready(function() {
+                                    loadData('all',".load_page_<?=$product_danhmuc3[$i]['id']?>","<?=$product_danhmuc3[$i]['id']?>");
+                                });
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    <?php } ?>
+</div>
 

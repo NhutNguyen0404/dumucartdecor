@@ -18,10 +18,14 @@
     $d->reset();
 	$sql="select ten$lang as ten,tenkhongdau,id from #_product_danhmuc where hienthi=1 and type='sanpham' and noibat=1 order by stt,id desc";
 	$d->query($sql);
-	$product_danhmuc2=$d->result_array(); 
-    
+	$product_danhmuc2=$d->result_array();
 
-    
-	$url_link = getCurrentPageURL();
+
+    $d->reset();
+    $sql="select ten$lang as ten,tenkhongdau,id from #_product_list where hienthi=1 and type='sanpham' and noibat=1 order by stt,id desc";
+    $d->query($sql);
+    $product_danhmuc3=$d->result_array();
+
+$url_link = getCurrentPageURL();
 
 ?>

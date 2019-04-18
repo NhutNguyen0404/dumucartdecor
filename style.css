@@ -256,22 +256,24 @@ div.hotromuahang
 {
     list-style: none;
     padding: 5px 5px;
+    max-width: 1150px;
+    margin: auto;
     
 }
 .site-maps ul a
 {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     
 }
 .site-maps ul a:hover
 {
-    color: #e03637;
+    color: #ff9b00;
 }
 .site-maps ul li
 {
     display: inline-block;
-    color: #e03637;
+    color: #000;
     
 }
 .taifile 

@@ -20,12 +20,12 @@
     } */
     
     $d->reset();
-	$sql ="select id,ten,tenkhongdau,photo,thumb,giacu,gia,spbanchay,masp,mota from table_product where hienthi=1 and id_danhmuc=".$_POST["id_danhmuc"]." and noibat=1 and type='sanpham' order by stt asc";
+	$sql ="select id,ten,tenkhongdau,photo,thumb,giacu,gia,spbanchay,masp,mota from table_product where hienthi=1 and id_list=".$_POST["id_danhmuc"]." and type='sanpham' order by stt asc";
 	$d->query($sql);
 	$product = $d->result_array();
     
     $d->reset();
-	$sql = "select id,ten$lang as ten,tenkhongdau,thumb FROM #_product_danhmuc where id='".$_POST['id_danhmuc']."' limit 0,1";		
+	$sql = "select id,ten$lang as ten,tenkhongdau,thumb FROM #_product_list where id='".$_POST['id_danhmuc']."' limit 0,1";
 	$d->query($sql);
 	$product_danhmuc5 = $d->fetch_array();
 ?>

@@ -8,7 +8,7 @@
                 if(count($list_product) > 0) { ?>
                 <ul class="list-item <?php if(($i==0 && $source=='index')||($source=='product' && $danhmuc_product[$i]['id']==$id_danhmuc)){?>show<?php }else{?>hide<?php }?>" id="show_<?=$danhmuc_product[$i]['id']?>">
                 <?php   for($j=0;$j<count($list_product);$j++) { ?>
-                        <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="san-pham/<?=$list_product[$j]['tenkhongdau']?>-<?=$list_product[$j]['id']?>/"><?=$list_product[$j]['ten']?></a></li>       
+                        <li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="san-pham/<?=$list_product[$j]['tenkhongdau']?>-<?=$list_product[$j]['id']?>/"><?=$list_product[$j]['ten']?></a></li>
                 <?php } ?>
                 </ul>
             <?php } ?>

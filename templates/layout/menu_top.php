@@ -65,37 +65,29 @@
                 <li>
                     <a class="<?php if ((!isset($_REQUEST['com'])) or ($_REQUEST['com'] == NULL) or $_REQUEST['com'] == 'index') echo 'active'; ?>"
                        href=""><?= _trangchu ?></a></li>
-                <li><a class="<?php if ($_REQUEST['com'] == 'cua-hang') echo 'active'; ?>"
-                       href="cua-hang.html"><?= _cuahang ?></a>
-                    <?php if (count($danhmuc_product) > 0) { ?>
-                        <ul class="sub-menu">
-                            <?php for ($i = 0; $i < count($danhmuc_product); $i++) { ?>
-                                <li>
-                                    <a href="san-pham/<?= $danhmuc_product[$i]['tenkhongdau'] ?>-<?= $danhmuc_product[$i]['id'] ?>"><?= $danhmuc_product[$i]['ten'] ?></a>
-                                    <?php
-                                    $d->reset();
-                                    $sql = "select id,ten$lang as ten,tenkhongdau,mota$lang as mota from #_product_list where type='sanpham' and hienthi=1 and id_danhmuc = " . $danhmuc_product[$i]['id'] . " order by stt,id desc";
-                                    $d->query($sql);
-                                    $danhmuc_list_mn = $d->result_array();
-                                    if (count($danhmuc_list_mn) > 0) {
-                                        ?>
-                                        <ul>
-                                            <?php for ($j = 0; $j < count($danhmuc_list_mn); $j++) { ?>
-                                                <li>
-                                                    <a href="san-pham/<?= $danhmuc_list_mn[$j]['tenkhongdau'] ?>-<?= $danhmuc_list_mn[$j]['id'] ?>/"><?= $danhmuc_list_mn[$j]['ten'] ?></a>
-                                                </li>
-                                            <?php } ?>
-                                        </ul>
+                <?php if (count($danhmuc_product) > 0) { ?>
+                    <?php for ($i = 0; $i < count($danhmuc_product); $i++) { ?>
+                        <li>
+                            <a href="san-pham/<?= $danhmuc_product[$i]['tenkhongdau'] ?>-<?= $danhmuc_product[$i]['id'] ?>"><?= $danhmuc_product[$i]['ten'] ?></a>
+                            <?php
+                            $d->reset();
+                            $sql = "select id,ten$lang as ten,tenkhongdau,mota$lang as mota from #_product_list where type='sanpham' and hienthi=1 and id_danhmuc = " . $danhmuc_product[$i]['id'] . " order by stt,id desc";
+                            $d->query($sql);
+                            $danhmuc_list_mn = $d->result_array();
+                            if (count($danhmuc_list_mn) > 0) {
+                                ?>
+                                <ul>
+                                    <?php for ($j = 0; $j < count($danhmuc_list_mn); $j++) { ?>
+                                        <li>
+                                            <a href="san-pham/<?= $danhmuc_list_mn[$j]['tenkhongdau'] ?>-<?= $danhmuc_list_mn[$j]['id'] ?>/"><?= $danhmuc_list_mn[$j]['ten'] ?></a>
+                                        </li>
                                     <?php } ?>
-                                </li>
+                                </ul>
                             <?php } ?>
-                        </ul>
+                        </li>
                     <?php } ?>
-                </li>
-                <li><a class="<?php if ($_REQUEST['com'] == 'thi-cong-noi-that') echo 'active'; ?>"
-                       href="thi-cong-noi-that.html">Thi công nội thất</a></li>
-                <li><a class="<?php if ($_REQUEST['com'] == 'thiet-ke-noi-that') echo 'active'; ?>"
-                       href="thiet-ke-noi-that.html">Thiết kế nội thất</a></li>
+                <?php } ?>
+                <li><a class="<?php if ($_REQUEST['com'] == 'khach-hang') echo 'active'; ?>" href="khach-hang.html">Khách hàng</a></li>
                 <li><a class="<?php if ($_REQUEST['com'] == 'tu-van') echo 'active'; ?>" href="tu-van.html">Tư vấn</a></li>
                 <li><a class="<?php if ($_REQUEST['com'] == 'gioi-thieu') echo 'active'; ?>"
                        href="gioi-thieu.html"><?= _gioithieu ?></a></li>

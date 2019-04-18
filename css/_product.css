@@ -38,6 +38,27 @@
     margin: 10px 1%;
     text-align: center;
 }
+
+.tab-products {
+    width: 100%;
+    text-align: center;
+}
+
+.tab-products ul {
+    list-style: none;
+}
+
+.tab-products li {
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tab-products .actived, .tab-products li:hover {
+    border-bottom: 2px solid #ff9b00 ;
+}
+
 @media screen and (max-width: 960px) {
     
     

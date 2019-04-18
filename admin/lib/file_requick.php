@@ -37,10 +37,10 @@
 			$template = isset($_GET['id']) ? "news_detail" : "news";
 			break;
 			
-		case 'thiet-ke-noi-that':
+		case 'khach-hang':
 			$type = "hotro";
-			$title = 'Thiết kế nội thất';
-			$title_cat = 'Thiết kế nội thất';
+			$title = 'Khách hàng';
+			$title_cat = 'Khách hàng';
 			$title_other = _tinlienquan;
 			$source = "news";
 			$template = isset($_GET['id']) ? "news_detail" : "news";
@@ -134,10 +134,10 @@
 			$template = "news";
 			break;	
 							
-		case 'cua-hang':
+		case 'san-pham':
 			$type = "sanpham";
-			$title = _cuahang;
-			$title_cat = _cuahang;
+			$title = 'Sản Phẩm';
+			$title_cat = 'Sản Phẩm';
 			$title_other = _sanphamcungloai;
 			$source = "product";
 			$template = isset($_GET['id']) ? "product_detail" : "product";

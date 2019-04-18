@@ -4,116 +4,24 @@
     <list default="true" id="2bdab974-3767-47e7-b9df-279fa07c2702" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/bootstrap/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/af.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/af.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/cy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/en-au.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/en-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/en-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/en-gb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/eo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/et.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/eu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/fo.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/fo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/fr-ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/fr-ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/gl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/gu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/gu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/hi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/is.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/is.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ka.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/km.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/lv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/mn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/no.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/pt-br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/si.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/si.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/sr-latn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/sr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/ug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/uk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/lang/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/lang/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/plugins/slideshow/3rdParty/jquery.min2.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/plugins/slideshow/3rdParty/jquery.min2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/dialog_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_gecko.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_gecko.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moono/editor_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/dialog_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_gecko.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_gecko.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie7.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie8.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_ie8.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_iequirks.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/moonocolor/editor_iequirks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckeditor/skins/office2013/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckeditor/skins/office2013/editor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckfinder/ckfinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckfinder/ckfinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/ckfinder/plugins/gallery/colorbox/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/ckfinder/plugins/gallery/colorbox/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/css/jquery.minicolors.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/css/jquery.minicolors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/jquery-1.11.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/jquery-1.11.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/jquery-1.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/jquery-1.8.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/jquery-1.8.2.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/jquery.datetimepicker.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/jquery.datetimepicker.full.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/plugins/tables/tablesort.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/plugins/tables/tablesort.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/plugins/ui/jquery.timeentry.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/plugins/ui/jquery.timeentry.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/plugins/uploader/plupload.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/plugins/uploader/plupload.full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/class.database2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/constant.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/file_requick.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/file_requick.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/media/multi_upload/jquery-1.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/media/multi_upload/jquery-1.8.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/media/scripts/jquery-1.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/media/scripts/jquery-1.8.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/media/scripts/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/media/scripts/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/functions_giohang.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/functions_giohang.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_menutop.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_menutop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css_jssor_slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css_jssor_slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/js_jssor_slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/js_jssor_slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_tieude.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_tieude.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paging_ajax/ajax_paging.php" beforeDir="false" afterPath="$PROJECT_DIR$/paging_ajax/ajax_paging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/js_css.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/js_css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/slider_jssor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/slider_jssor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/danhmuc_left.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/danhmuc_left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/menu_bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/menu_bottom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/menu_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/menu_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/tieude.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/tieude.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product_detail_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_detail_tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,115 +48,53 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="8" />
+          <entry key="css" value="13" />
           <entry key="gitignore" value="2" />
           <entry key="htaccess" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="25" />
+          <entry key="php" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
+          <entry key="CSS" value="13" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="25" />
+          <entry key="PHP" value="47" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="482" />
+          <entry key="css" value="891" />
           <entry key="gitignore" value="14" />
-          <entry key="php" value="560" />
+          <entry key="htaccess" value="1" />
+          <entry key="php" value="1468" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="482" />
-          <entry key="PHP" value="560" />
+          <entry key="CSS" value="891" />
+          <entry key="PHP" value="1468" />
           <entry key="PLAIN_TEXT" value="14" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_product.css">
+        <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_menutop.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/sources/user.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/js_jssor_slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret column="34" selection-start-column="33" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/css_jssor_slider.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="305">
+              <caret line="143" column="207" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="207" />
             </state>
           </provider>
         </entry>
@@ -256,17 +102,71 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+            <state relative-caret-position="449">
+              <caret line="275" column="15" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/_tieude.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="18" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/tieude.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sources/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="241" selection-start-line="241" selection-end-line="241" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/news_tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
+        <entry file="file://$PROJECT_DIR$/css/_tintuc.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="21" column="90" lean-forward="true" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+            <state relative-caret-position="256">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="157" column="32" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -274,27 +174,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/lib/file_requick.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="136" column="22" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="22" />
+            <state relative-caret-position="245">
+              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>file</find>
-      <find>san-pham</find>
       <find>tieude_</find>
       <find>wapper</find>
       <find>main</find>
       <find>login</find>
-      <find>login</find>
       <find>login(</find>
       <find>tieude</find>
+      <find>san-pham</find>
       <find>cua-hang</find>
+      <find>.site-maps</find>
     </findStrings>
+    <replaceStrings>
+      <replace>cua-hang</replace>
+      <replace>san-pham</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -310,20 +221,33 @@
         <option value="$PROJECT_DIR$/css/_slider.css" />
         <option value="$PROJECT_DIR$/templates/layout/footer.php" />
         <option value="$PROJECT_DIR$/css/_footer.css" />
-        <option value="$PROJECT_DIR$/sources/product.php" />
-        <option value="$PROJECT_DIR$/paging_ajax/ajax_paging.php" />
-        <option value="$PROJECT_DIR$/templates/layout/menu_top.php" />
-        <option value="$PROJECT_DIR$/admin/lib/file_requick.php" />
         <option value="$PROJECT_DIR$/templates/layout/js_css.php" />
         <option value="$PROJECT_DIR$/templates/product_tpl.php" />
-        <option value="$PROJECT_DIR$/css/_product.css" />
-        <option value="$PROJECT_DIR$/css/_menutop.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/css_jssor_slider.css" />
         <option value="$PROJECT_DIR$/js/js_jssor_slider.js" />
         <option value="$PROJECT_DIR$/templates/layout/slider_jssor.php" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/templates/layout/menu_bottom.php" />
+        <option value="$PROJECT_DIR$/templates/layout/menu_mobi.php" />
+        <option value="$PROJECT_DIR$/templates/layout/danhmuc_left.php" />
+        <option value="$PROJECT_DIR$/templates/layout/search_tpl.php" />
+        <option value="$PROJECT_DIR$/sources/product.php" />
+        <option value="$PROJECT_DIR$/admin/ajax/thanhtoan.php" />
+        <option value="$PROJECT_DIR$/css/_menutop.css" />
+        <option value="$PROJECT_DIR$/css/_product.css" />
+        <option value="$PROJECT_DIR$/sources/index.php" />
+        <option value="$PROJECT_DIR$/paging_ajax/ajax_paging.php" />
+        <option value="$PROJECT_DIR$/templates/layout/menu_top.php" />
+        <option value="$PROJECT_DIR$/admin/lib/file_requick.php" />
+        <option value="$PROJECT_DIR$/templates/index_tpl.php" />
+        <option value="$PROJECT_DIR$/templates/layout/tieude.php" />
+        <option value="$PROJECT_DIR$/css/_tieude.css" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/sources/about.php" />
+        <option value="$PROJECT_DIR$/templates/product_detail_tpl.php" />
+        <option value="$PROJECT_DIR$/templates/news_tpl.php" />
+        <option value="$PROJECT_DIR$/css/_tintuc.css" />
       </list>
     </option>
   </component>
@@ -355,11 +279,6 @@
             <path>
               <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
               <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
               <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -382,12 +301,6 @@
               <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -396,8 +309,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="file_&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/admin/lib/file_requick.php&#10;_slider&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/css/_slider.css&#10;menu_to&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/templates/layout/menu_top.php" />
+    <property name="SearchEverywhereHistoryKey" value="fi&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/admin/lib/file_requick.php&#10;file_&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/admin/lib/file_requick.php&#10;_slider&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/css/_slider.css&#10;menu_to&#9;FILE&#9;file://C:/wamp64/www/dumucartdecor/templates/layout/menu_top.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -423,25 +337,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555292265517</updated>
-      <workItem from="1555292267380" duration="22723000" />
+      <workItem from="1555292267380" duration="24045000" />
+      <workItem from="1555404911173" duration="10622000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22723000" />
+    <option name="totallyTimeSpent" value="34667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -449,11 +359,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" weight="0.32980332" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -509,9 +445,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_tieude.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -519,25 +452,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/menu_top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -548,45 +466,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2873">
-          <caret line="169" column="89" selection-start-line="169" selection-start-column="89" selection-end-line="169" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paging_ajax/ajax_paging.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/js_css.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="157" column="32" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_menutop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -602,63 +485,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/lib/class.database4.php" />
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="833">
           <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js_jssor_slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css_jssor_slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/js_jssor_slider.js">
+    <entry file="file://$PROJECT_DIR$/admin/lib/constant.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/lib/functions_giohang.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret column="34" selection-start-column="33" selection-end-column="34" />
+        <state relative-caret-position="272">
+          <caret line="30" column="74" selection-start-line="30" selection-start-column="74" selection-end-line="30" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
+    <entry file="file://$PROJECT_DIR$/templates/layout/menu_bottom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/menu_mobi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="106" column="57" selection-start-line="106" selection-start-column="57" selection-end-line="106" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/danhmuc_left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/search_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/ajax/thanhtoan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="117" column="72" selection-start-line="117" selection-start-column="72" selection-end-line="117" selection-end-column="72" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#49#55#0" expanded="true" />
+            <element signature="e#52#58#0" expanded="true" />
+            <element signature="e#63#69#0" expanded="true" />
+            <element signature="e#65#71#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_menutop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paging_ajax/ajax_paging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/menu_top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_tieude.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="195" column="16" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+        <state relative-caret-position="449">
+          <caret line="275" column="15" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/tieude.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="143" column="207" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="241" selection-start-line="241" selection-end-line="241" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="157" column="32" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/lib/file_requick.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="136" column="22" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="22" />
+        <state relative-caret-position="245">
+          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/templates/news_tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="21" column="90" lean-forward="true" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_tintuc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>

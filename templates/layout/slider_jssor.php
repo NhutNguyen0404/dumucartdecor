@@ -27,7 +27,7 @@
 
         /*#region responsive code begin*/
 
-        var MAX_WIDTH = 1366;
+        var MAX_WIDTH = 1160;
 
         function ScaleSlider() {
             var containerElement = jssor_1_slider.$Elmt.parentNode;
@@ -80,9 +80,9 @@
     .jssora051.jssora051dn {opacity:.5;}
     .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
 </style>
-<div style="position:relative;margin:0 auto;top:0px;left:0px;width:1366px;height:380px;overflow:hidden;visibility:hidden;" id="jssor_1">
+<div style="position:relative;margin:0 auto;top:0px;left:0px;width:1160px;height:380px;overflow:hidden;visibility:hidden;" id="jssor_1">
     <!-- Slides Container -->
-    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1366px;height:380px;overflow:hidden;">
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1160px;height:380px;overflow:hidden;">
         <?php for($i=0,$count_slider=count($slider);$i<$count_slider;$i++){ ?>
         <div>
             <img u="image" src="<?php if($slider[$i]['photo']!='')echo _upload_hinhanh_l.$slider[$i]['photo'];else echo 'images/noimage.png' ?>" alt="<?=$$slider[$i]['ten']?>" />

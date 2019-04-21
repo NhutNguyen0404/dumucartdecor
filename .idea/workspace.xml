@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bdab974-3767-47e7-b9df-279fa07c2702" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout/product_item.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/class.database2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/constant.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/constant.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/file_requick.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/file_requick.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/functions_giohang.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/functions_giohang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_menutop.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_menutop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/_tieude.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/_tieude.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/paging_ajax/ajax_paging.php" beforeDir="false" afterPath="$PROJECT_DIR$/paging_ajax/ajax_paging.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/about.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sources/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/sources/product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index_tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/danhmuc_left.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/danhmuc_left.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/menu_bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/menu_bottom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/menu_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/menu_top.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout/tieude.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/tieude.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/news_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/js_css.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/js_css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/layout/slider_jssor.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout/slider_jssor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/product_detail_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_detail_tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product_tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,40 +40,43 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="13" />
+          <entry key="css" value="16" />
           <entry key="gitignore" value="2" />
           <entry key="htaccess" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="47" />
+          <entry key="php" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="13" />
+          <entry key="CSS" value="16" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="47" />
+          <entry key="PHP" value="63" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="891" />
+          <entry key="css" value="1226" />
           <entry key="gitignore" value="14" />
           <entry key="htaccess" value="1" />
-          <entry key="php" value="1468" />
+          <entry key="php" value="2845" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="891" />
-          <entry key="PHP" value="1468" />
+          <entry key="CSS" value="1226" />
+          <entry key="PHP" value="2845" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="htaccess" value="1" />
         </counts>
@@ -91,10 +86,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
+        <entry file="file://$PROJECT_DIR$/css/_product.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="143" column="207" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="207" />
+            <state relative-caret-position="527">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -102,62 +97,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="275" column="15" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
+            <state relative-caret-position="7055">
+              <caret line="415" selection-start-line="415" selection-end-line="415" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/_tieude.css">
+        <entry file="file://$PROJECT_DIR$/templates/layout/js_css.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4216">
+              <caret line="248" column="40" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout/product_item.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/paging_ajax/ajax_paging.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
-              <caret line="31" column="18" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="18" />
+              <caret line="31" selection-start-line="31" selection-end-line="96" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/layout/tieude.php">
+        <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="1428">
+              <caret line="84" column="91" selection-start-line="84" selection-start-column="91" selection-end-line="84" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sources/about.php">
+        <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="85" selection-start-line="3" selection-start-column="85" selection-end-line="3" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="241" selection-start-line="241" selection-end-line="241" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/news_tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/_tintuc.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            <state relative-caret-position="3604">
+              <caret line="212" column="77" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -165,17 +151,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="157" column="32" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="32" />
+            <state relative-caret-position="1394">
+              <caret line="82" column="10" selection-start-line="78" selection-start-column="4" selection-end-line="82" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="908">
+              <caret line="247" column="10" selection-start-line="247" selection-start-column="10" selection-end-line="247" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/lib/file_requick.php">
+        <entry file="file://$PROJECT_DIR$/sources/product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="3417">
+              <caret line="201" column="4" selection-start-line="201" selection-start-column="4" selection-end-line="201" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -201,10 +196,17 @@
       <find>san-pham</find>
       <find>cua-hang</find>
       <find>.site-maps</find>
+      <find>.hide</find>
+      <find>chay_i</find>
+      <find>_pro</find>
+      <find>$product[$i]</find>
+      <find>tomt</find>
+      <find>sp_name</find>
     </findStrings>
     <replaceStrings>
       <replace>cua-hang</replace>
       <replace>san-pham</replace>
+      <replace>$product</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -221,33 +223,34 @@
         <option value="$PROJECT_DIR$/css/_slider.css" />
         <option value="$PROJECT_DIR$/templates/layout/footer.php" />
         <option value="$PROJECT_DIR$/css/_footer.css" />
-        <option value="$PROJECT_DIR$/templates/layout/js_css.php" />
-        <option value="$PROJECT_DIR$/templates/product_tpl.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/css_jssor_slider.css" />
         <option value="$PROJECT_DIR$/js/js_jssor_slider.js" />
-        <option value="$PROJECT_DIR$/templates/layout/slider_jssor.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/templates/layout/menu_bottom.php" />
         <option value="$PROJECT_DIR$/templates/layout/menu_mobi.php" />
         <option value="$PROJECT_DIR$/templates/layout/danhmuc_left.php" />
         <option value="$PROJECT_DIR$/templates/layout/search_tpl.php" />
-        <option value="$PROJECT_DIR$/sources/product.php" />
         <option value="$PROJECT_DIR$/admin/ajax/thanhtoan.php" />
         <option value="$PROJECT_DIR$/css/_menutop.css" />
-        <option value="$PROJECT_DIR$/css/_product.css" />
-        <option value="$PROJECT_DIR$/sources/index.php" />
-        <option value="$PROJECT_DIR$/paging_ajax/ajax_paging.php" />
         <option value="$PROJECT_DIR$/templates/layout/menu_top.php" />
         <option value="$PROJECT_DIR$/admin/lib/file_requick.php" />
-        <option value="$PROJECT_DIR$/templates/index_tpl.php" />
         <option value="$PROJECT_DIR$/templates/layout/tieude.php" />
         <option value="$PROJECT_DIR$/css/_tieude.css" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/sources/about.php" />
-        <option value="$PROJECT_DIR$/templates/product_detail_tpl.php" />
         <option value="$PROJECT_DIR$/templates/news_tpl.php" />
         <option value="$PROJECT_DIR$/css/_tintuc.css" />
+        <option value="$PROJECT_DIR$/templates/layout/slider_jssor.php" />
+        <option value="$PROJECT_DIR$/paging_ajax/ajax_paging.php" />
+        <option value="$PROJECT_DIR$/sources/index.php" />
+        <option value="$PROJECT_DIR$/templates/index_tpl.php" />
+        <option value="$PROJECT_DIR$/sources/product.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/css/_product.css" />
+        <option value="$PROJECT_DIR$/templates/layout/js_css.php" />
+        <option value="$PROJECT_DIR$/templates/layout/product_item.php" />
+        <option value="$PROJECT_DIR$/templates/product_tpl.php" />
+        <option value="$PROJECT_DIR$/templates/product_detail_tpl.php" />
       </list>
     </option>
   </component>
@@ -275,11 +278,6 @@
             <path>
               <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
               <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dumucartdecor" type="462c0819:PsiDirectoryNode" />
-              <item name="ajax" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dumucartdecor" type="b2602c69:ProjectViewProjectNode" />
@@ -339,17 +337,21 @@
       <updated>1555292265517</updated>
       <workItem from="1555292267380" duration="24045000" />
       <workItem from="1555404911173" duration="10622000" />
+      <workItem from="1555557390988" duration="1845000" />
+      <workItem from="1555646627191" duration="13562000" />
+      <workItem from="1555744829620" duration="5743000" />
+      <workItem from="1555820296251" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34667000" />
+    <option name="totallyTimeSpent" value="56422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23298033" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24810892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -431,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/slider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -466,13 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/js_css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="188" column="18" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/sources/slider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102" />
@@ -486,20 +474,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/lib/class.database4.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/js_jssor_slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -559,19 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="117" column="72" selection-start-line="117" selection-start-column="72" selection-end-line="117" selection-end-column="72" />
-          <folding>
-            <element signature="e#49#55#0" expanded="true" />
-            <element signature="e#52#58#0" expanded="true" />
-            <element signature="e#63#69#0" expanded="true" />
-            <element signature="e#65#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_product.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="57" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -582,31 +543,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sources/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paging_ajax/ajax_paging.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="75" selection-start-line="27" selection-start-column="75" selection-end-line="27" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/menu_top.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sources/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -617,17 +557,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
+    <entry file="file://$PROJECT_DIR$/templates/news_tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="275" column="15" selection-start-line="275" selection-start-column="15" selection-end-line="275" selection-end-column="15" />
+        <state relative-caret-position="85">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout/tieude.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -638,45 +585,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
+    <entry file="file://$PROJECT_DIR$/css/_tintuc.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="143" column="207" lean-forward="true" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="241" selection-start-line="241" selection-end-line="241" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="157" column="32" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="32" />
+        <state relative-caret-position="340">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/lib/file_requick.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="38" column="12" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="646">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/news_tpl.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="833">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_tintuc.css">
+    <entry file="file://$PROJECT_DIR$/sources/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="239">
+          <caret line="38" column="86" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7055">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/js_css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4216">
+          <caret line="248" column="40" selection-start-line="248" selection-start-column="33" selection-end-line="248" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/product_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paging_ajax/ajax_paging.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout/slider_jssor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="84" column="91" selection-start-line="84" selection-start-column="91" selection-end-line="84" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3604">
+          <caret line="212" column="77" selection-start-line="212" selection-start-column="28" selection-end-line="212" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/product_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="82" column="10" selection-start-line="78" selection-start-column="4" selection-end-line="82" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sources/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3417">
+          <caret line="201" column="4" selection-start-line="201" selection-start-column="4" selection-end-line="201" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/product_detail_tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="908">
+          <caret line="247" column="10" selection-start-line="247" selection-start-column="10" selection-end-line="247" selection-end-column="10" />
         </state>
       </provider>
     </entry>

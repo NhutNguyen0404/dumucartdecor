@@ -8,20 +8,20 @@
 .content-products {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
 .item
 {
     width: 31%;
     padding: 20px;
 }
-.content-item
-{
-    list-style: none;
+
+.item img {
+    max-width: 100%;
+    max-height: 240px;
 }
-.item:last-child
-{
-    border-right: none;
-}
+
 .item a
 {
     text-decoration:none;
@@ -30,13 +30,42 @@
 .item .tomtat .sp_name
 {
     line-height: 1.5;
+    margin-top: 10px;
     min-height: 40px;
+    text-transform: uppercase;
 }
-.item_custom
-{
-    width: 31%;
-    margin: 10px 1%;
+
+.item .tomtat .mota {
     text-align: center;
+}
+
+.item .price-product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.item .price-product .price-items {
+    width: 48%;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.item .price-product .price {
+    background: #eeeeee;
+    color: #ff9b00;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.item .price-product .buy-now {
+    background: #ff9b00;
+    color: #000;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .tab-products {
@@ -57,6 +86,14 @@
 
 .tab-products .actived, .tab-products li:hover {
     border-bottom: 2px solid #ff9b00 ;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 @media screen and (max-width: 960px) {

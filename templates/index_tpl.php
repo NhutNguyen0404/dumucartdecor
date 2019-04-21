@@ -1,10 +1,10 @@
 <link href="css/_product.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript">
-    function loadData(page,id_tab,id_danhmuc){
+    function loadData(page,id_tab,id_danhmuc,type){
         $.ajax({
             type: "POST",
             url: "paging_ajax/ajax_paging.php",
-            data: {page:page,id_danhmuc:id_danhmuc},
+            data: {page:page,id_danhmuc:id_danhmuc,type:type},
             success: function(msg)
             {
                     $("#loadbody").fadeOut("fast");
@@ -18,6 +18,70 @@
             }
         });
     }
+    var slick = {
+        //vertical:true,Chay dọc
+        //fade: true,//Hiệu ứng fade của slider
+        //slidesPerRow: 2,
+        //cssEase: 'linear',//Chạy đều
+        //lazyLoad: 'progressive',
+        infinite: true,//Lặp lại
+        accessibility:true,
+        slidesToShow: 3,    //Số item hiển thị
+        slidesToScroll: 1, //Số item cuộn khi chạy
+        autoplay:true,  //Tự động chạy
+        autoplaySpeed:3000,  //Tốc độ chạy
+        speed:1000,//Tốc độ chuyển slider
+        arrows:true, //Hiển thị mũi tên
+        centerMode:false,  //item nằm giữa
+        dots:false,  //Hiển thị dấu chấm
+        draggable:true,  //Kích hoạt tính năng kéo chuột
+        pauseOnHover:true,
+
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 801,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 361,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            }
+            ,
+            {
+                breakpoint: 321,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            }
+        ]
+
+    };
 </script>
 <script type="text/javascript">
 	$(document).ready(function(e) {
@@ -100,10 +164,19 @@
             showTab.removeClass('actived');
             $(this).addClass('actived');
             let tabContent = $('#product-tab-item__'+dataTab);
-            tabItems.hide(100);
-            tabContent.fadeIn(300);
+            tabItems.removeClass('show');
+            tabItems.addClass('hide');
+            tabContent.removeClass('hide');
+            tabContent.addClass('show');
+            tabContent.find('.js-silder-product-index').slick('setPosition');
         });
     })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.js-silder-product-index').slick(slick);
+    });
 </script>
 
 <div class="tab-products">
@@ -116,44 +189,36 @@
 </div>
 <div class="content-tab">
     <div class="actived tab-items" id="product-tab-item__all">
-        <?php for ($i=0; $i < count($product_danhmuc3); $i++) { ?>
-            <div class="content-category">
-                <div class="tieude_giua"><div><?=$product_danhmuc3[$i]['ten']?></div><a href="san-pham/<?=$product_danhmuc3[$i]['tenkhongdau']?>-<?=$product_danhmuc2[$i]['id']?>">Xem tất cả</i></a></div>
-                <div class="wap_item">
-                    <div class="load_page_<?=$product_danhmuc3[$i]['id']?>" data-rel="<?=$product_danhmuc3[$i]['id']?>">
-                        <script type="text/javascript">
-                            $(document).ready(function() {
-                                loadData('all',".load_page_<?=$product_danhmuc3[$i]['id']?>","<?=$product_danhmuc3[$i]['id']?>");
-                            });
-                        </script>
-                    </div>
+        <?php foreach ($productIndex['all'] as $list) { ?>
+        <div class="content-category">
+            <div class="tieude_giua"><div><?=$list['list']['ten']?></div><a href="san-pham/<?=$list['list']['tenkhongdau']?>-<?=$list['list']['id']?>">Xem tất cả</i></a></div>
+            <div class="wap_item">
+                <div class="content-item js-silder-product-index">
+                    <?php foreach ($list['product'] as $product) { ?>
+                        <?php include "layout/product_item.php"; ?>
+                    <?php } ?>
                 </div>
             </div>
+        </div>
         <?php } ?>
     </div>
-    <?php foreach ($product_danhmuc2 as $danhmuc2) { ?>
-        <div class="hide tab-items" id="product-tab-item__<?=$danhmuc2['id']?>">
-            <?php
-                $d->reset();
-                $sql="select ten$lang as ten,tenkhongdau,id from #_product_list where hienthi=1 and type='sanpham' and id_danhmuc = ".$danhmuc2['id']." order by stt,id desc";
-                $d->query($sql);
-                $product_danhmuc3=$d->result_array();
-            ?>
-            <?php for ($i=0; $i < count($product_danhmuc3); $i++) { ?>
+    <?php foreach ($productIndex['child'] as $catItem) { ?>
+        <?php foreach ($catItem as $cat) { ?>
+        <div class="tab-items hide" id="product-tab-item__<?=$cat['cat']['id']?>">
+            <?php foreach ($cat['listOfCat'] as $list) { ?>
                 <div class="content-category">
-                    <div class="tieude_giua"><div><?=$product_danhmuc3[$i]['ten']?></div><a href="san-pham/<?=$product_danhmuc3[$i]['tenkhongdau']?>-<?=$product_danhmuc2[$i]['id']?>">Xem tất cả</i></a></div>
+                    <div class="tieude_giua"><div><?=$list['list']['ten']?></div><a href="san-pham/<?=$list['list']['tenkhongdau']?>-<?=$list['list']['id']?>">Xem tất cả</i></a></div>
                     <div class="wap_item">
-                        <div class="load_page_<?=$product_danhmuc3[$i]['id']?>" data-rel="<?=$product_danhmuc3[$i]['id']?>">
-                            <script type="text/javascript">
-                                $(document).ready(function() {
-                                    loadData('all',".load_page_<?=$product_danhmuc3[$i]['id']?>","<?=$product_danhmuc3[$i]['id']?>");
-                                });
-                            </script>
+                        <div class="content-item js-silder-product-index">
+                            <?php foreach ($list['product'] as $product) { ?>
+                                <?php include "layout/product_item.php"; ?>
+                            <?php } ?>
                         </div>
                     </div>
                 </div>
             <?php } ?>
         </div>
+        <?php } ?>
     <?php } ?>
 </div>
 

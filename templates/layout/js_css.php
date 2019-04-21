@@ -5,7 +5,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js" ></script>
 <script type="text/javascript" src="js/my_script.js"></script>
-<script src="js/plugins-scroll.js" type="text/javascript" ></script>
 <link href="fontawesome/css/font-awesome.css" type="text/css" rel="stylesheet" />
 
 <!--Menu mobile-->
@@ -211,3 +210,71 @@
     });
 </script>
 <?php } ?>
+
+
+<script type="text/javascript">
+    $(document).ready(function (e) {
+        $('.size').click(function () {
+            $('.size').removeClass('active_size');
+            $(this).addClass('active_size');
+        });
+        $('.mausac').click(function () {
+            $('.mausac').removeClass('active_mausac');
+            $(this).addClass('active_mausac');
+        });
+        $('.buy-now').click(function () {
+            if ($('.size').length && $('.active_size').length == false) {
+                alert('<?=_chonsize?>');
+                return false;
+            }
+            if ($('.active_size').length) {
+                var size = $('.active_size').html();
+            }
+            else {
+                var size = '';
+            }
+
+            if ($('.mausac').length && $('.active_mausac').length == false) {
+                alert('<?=_chonmau?>');
+                return false;
+            }
+            if ($('.active_mausac').length) {
+                var mausac = $('.active_mausac').html();
+            }
+            else {
+                var mausac = '';
+            }
+            var act = "dathang";
+            var _seft = $(this);
+            var id = _seft.attr('data-id');
+            //var nam_sl = '.sl_' + id;
+            //var soluong = $(nam_sl).val();
+            var soluong = 1;
+            //alert(soluong);
+            if (soluong > 0) {
+                $.ajax({
+                    type: 'post',
+                    url: 'ajax/cart.php',
+                    dataType: 'json',
+                    data: {id: id, size: size, mausac: mausac, soluong: soluong, act: act},
+                    beforeSend: function () {
+                        $('.thongbao').html('<p><img src="images/loader_p.gif"></p>');
+                    },
+                    error: function () {
+                        add_popup('<?=_hethongloi?>');
+                    },
+                    success: function (kq) {
+                        add_popup2(kq.thongbao);
+                        $('#info_cart').html(kq.thongbao);
+                        //alert(kq.sl);
+                        console.log(kq);
+                    }
+                });
+            }
+            else {
+                alert('<?=_nhapsoluong?>');
+            }
+            return false;
+        });
+    });
+</script>

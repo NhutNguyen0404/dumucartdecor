@@ -199,7 +199,7 @@
 	$d->reset();
 	$sql = "select id,ten$lang as ten,tenkhongdau,spbanchay,thumb,photo,mota,masp,gia,giacu FROM #_product where $where limit $bg,$pageSize";		
 	$d->query($sql);
-	$product = $d->result_array();	
+    $products = $d->result_array();
 	$url_link = getCurrentPageURL();
 	
 ?>
